@@ -1,0 +1,44 @@
+.Inneritem {
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.inneritem-pic {
+    width: 50px;
+    height:40px;
+
+    border-radius: 5px;
+
+}
+.inneritem-pic img {
+    width:45px;
+    height:35px;
+
+    border-radius: 5px;
+}
+
+.inneritem-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.inneritem-detail h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.inneritem-detail h4 i {
+    color: rgb(154, 154, 6);
+}
+
+.inneritem-detail p {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--black-color);
+}

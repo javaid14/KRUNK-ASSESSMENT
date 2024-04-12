@@ -1,0 +1,51 @@
+.footer {
+    margin-top: 20px;
+    width:290px;
+    height:70px;
+    margin: 5px;
+
+    border-radius: 0 0 20px 20px ;
+
+}
+.message {
+    margin-top: 10px;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     flex-direction: row;
+}
+.message input {
+    width: 170px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+
+    border-radius: 5px;
+    color: var(--gray-color);
+}
+.message i {
+    padding: 5px;
+}
+
+.msgSend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.msgSend button {
+    margin-top: 10px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+.msgSend button i {
+    color: var(--white-color);
+}
+
+.FooterText p {
+    color: var(--gray-color);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+
+}

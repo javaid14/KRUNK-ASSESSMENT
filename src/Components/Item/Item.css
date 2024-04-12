@@ -1,0 +1,27 @@
+.Item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    padding: 5px;
+
+    width: 230px;
+    height: 120px;
+
+    border-radius: 10px;
+}
+.Item p {
+    margin-left: 10px;
+    color: var(--black-color);
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+.time {
+    margin-top: 10px;
+    margin-right: 220px;
+    margin-left: 10px;
+}

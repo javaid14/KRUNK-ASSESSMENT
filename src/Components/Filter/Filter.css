@@ -1,0 +1,25 @@
+.Filters {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+}
+
+.Filters-head {
+    justify-content: space-between;
+}
+.Filters-select {
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.Filters-select button {
+    width: fit-content;
+    color: var(--gray-color);
+    margin: 5px;
+}
+.Filters-select button:hover {
+    color: var(--secondary-color);
+}

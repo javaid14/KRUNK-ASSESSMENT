@@ -1,0 +1,38 @@
+.Header {
+    margin: 5px;
+    
+    border-radius: 20px 20px 0 0;
+
+    width:290px;
+    height:50px;
+    justify-content: space-around;
+    align-items:center;
+}
+.avatar {
+    width: 50px;
+    border-radius: 20px;
+    background-color: var(--water-color);
+    flex-wrap: wrap-reverse;
+
+
+}
+.avatar img {
+    width: 30px;
+    border-radius: 20px;
+}
+.profile {
+    margin-right: 120px;
+
+    
+}
+.profile h1 {
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+.profile h1 i{
+    color: yellow;
+}
+p {
+    font-size: 0.7rem;
+    color: var(--secondary-color);
+}
